@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+html, body{
+
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.w50{
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+
+.w100{
+    float: left
+    width: 100%;
+    padding: 0 10px;
+}
+body{
+    background: #b0c4de;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.form-group input[type=text]{
+    width: 100%;
+    padding-left: 8px;
+    height: 40px;
+    margin-top: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    font-family: 'Zilla Slab', serif;
+}
+
+.form-group input[type=submit]{
+    width: 140px;
+    height: 40px;
+    background:  #191970;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Zilla Slab', serif;
+}
+
+
+h2{
+    text-align: center;
+    color: #191970;
+    padding: 10px 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #04558a;
+    margin-bottom: 10px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.form-group textarea{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+@media screen and (max-width:500px){
+    .w50{
+        width: 100%;
+    }
+}
